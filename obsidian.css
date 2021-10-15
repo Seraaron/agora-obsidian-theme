@@ -2,13 +2,17 @@
 /**************
 _______________
 
-Custom obsidian.css for Agora TTRPG https://publish.obsidian.md/agora
+Custom obsidian.css for Agora TTRPG
  by Seraaron Art (MIT license 2021)
 _______________
 
 **************/
 
 /* GOOGLE FONT IMPORTS */
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500;1,800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600;1,900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;0,600;1,300;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,700;0,900;1,400;1,800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,600;0,800;1,500;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;700&display=swap');
@@ -217,14 +221,17 @@ html, body {
 
 
 /* tables */
-table, td, th {
-  border-color: var(--thead-bg-color) !important;
+table, td {
+  background-color: var(--background-primary);
+  border-color: var(--background-primary) !important;
   font-family: var(--font-serif);
 }
 td:hover {
   background-color: var(--th-hover-color);
 }
 th {
+  border-color: var(--thead-bg-color) !important;
+  font-family: var(--font-serif);
   font-weight: 900;
 }
 th:hover {
@@ -846,4 +853,3 @@ p:not(:last-child) {
 .dropdown:hover {
   background-color: var(--background-modifier-form-field-hover);
 }
-
