@@ -15,46 +15,28 @@ Obsidian theme for the [Agora TTRPG](https://publish.obsidian.md/agora).
 
 ![preview](agora-theme-preview.png)
 
-##### Special Feature (tag-styled blockquotes)
+##### Special Feature (tag-styling)
 
-Use any of the following tags to add big bold lettering to your blockquotes:
-**Standard dropcaps**
-- `#eg` Exempli gratia
-- `#nb` Nota bene
-- `#ie` Id est
-- `#cf` Conferatur
-- `#ps` Postscript / Postulate
-- `#id` Idea / Identity
-- `#quote` Quotation mark
+Use any of the following tags to add some special symbols to your document
 
-**Agora specific**
-- `#imp` A big  exclamation point shaped bullet
-- `#que` A question mark shaped bullet
-- `#up` A big triangular up arrow bullet
-- `#dw` A big triangular down arrow bullet
-- `#ast` A big asterisk shaped bullet
-
-_(currently unused)_
-- `#ft` Features
-- `#jb` Jobs
-- `#as` Assets
-- `#rq` Requires
-
-**Maths stuff** (just for fun)
-- `#definition` Def
-- `#axiom` Axi
-- `#theorem` Thm
-- `#corollary` Cor
-- `#lemma` Lem
-- `#proof` Proof
-- `#qed` QED
+- `#quote` Big quotation mark, for block quotes
+- `#important` A big  exclamation point shaped bullet
+- `#question` A question mark shaped bullet
+- `#asterisk` A big asterisk shaped bullet
 
 _**Note:**_ This will not look good if you already make use of any of the above tags for any other reason, including in metadata. You will need to manually edit and delete or comment out the ones that you don't want to use if they are causing you problems.
 
 ### Changelog
 
+#### v1.1 (11/12/21)
+
+- Added even-odd shading to table rows.
+- Generally made embeded articles look better.
+- Slightly altered fonts and use of smallcaps in headers.
+- Removed unused tag stylings.
+
 #### v1.0 (13/10/21)
 
-* Initial release
+- Initial release
 
 ## MIT license 2021
